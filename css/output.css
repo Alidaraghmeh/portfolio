@@ -339,6 +339,9 @@
     border-bottom-style: var(--tw-border-style);
     border-bottom-width: 1px;
   }
+  .border-cyan-500 {
+    border-color: var(--color-cyan-500);
+  }
   .border-slate-600 {
     border-color: var(--color-slate-600);
   }
@@ -533,6 +536,9 @@
     }
     .hover\:text-cyan-400:hover {
       color: var(--color-cyan-400);
+    }
+    .hover\:text-white:hover {
+      color: var(--color-white);
     }
     .hover\:shadow-lg:hover {
       --tw-shadow: 0 10px 15px -3px var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 4px 6px -4px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
